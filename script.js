@@ -75,17 +75,14 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     const user = search.value;
     if(user) {
-      if(user == 'VladimirSaenko' ||
-       user == 'alexanderkhapchenko' ||
+      if(
        user == 'OneFY' || 
        user == 'Otanukun' ||
-       user == 'Vladimirsaenko' ||
-       user == 'vladimirSaenko' ||
        user == 'Alexanderkhapchenko' ||
        user == 'AlexanderKhapchenko' ||
-       user == 'Vladimir Saenko' ||
        user == 'witcherwow240' ||
-       user == 'Alexander Khapchenko') {
+       user == 'Alexander Khapchenko' ||
+      user == 'volodymyrsaienko240') {
         createErrorCard('top secret');
       }
       else if(user == 'aboba' || user == 'AleksandraHrevtsova'
